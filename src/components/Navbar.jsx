@@ -8,7 +8,7 @@ const Navbar = () => {
   }
  
   return (
-    <header className="h-auto w-full flex justify-center md:h-20 bg-gray-500 fixed">
+    <header className="h-auto w-full flex justify-center md:h-20 fixed">
       <nav className="bg-blue-800 w-5xl mx-auto  font-serif flex fixed top-0 left-0 w-full items-center justify-between h-[60xp] p-4 ">
         <img className="rounded-md" src={foto} width={40} height={5} />
         <ul className="space-x-10 hidden md:block">
