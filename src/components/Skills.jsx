@@ -1,7 +1,8 @@
 import { CgCPlusPlus } from 'react-icons/cg';
 import Card from '../components/Card';
-import { FaCss3, FaFigma, FaGithub, FaHtml5, FaJava, FaJs, FaNodeJs, FaPython,FaReact ,FaPhp} from 'react-icons/fa';
+import { FaCss3, FaFigma, FaHtml5, FaJava, FaJs, FaNodeJs, FaPython,FaReact } from 'react-icons/fa';
 import { RiTailwindCssFill } from 'react-icons/ri';
+import { SiExpress ,SiMongodb } from "react-icons/si";
 
 
 const Skills = () => {
@@ -15,8 +16,8 @@ const Skills = () => {
     { skillsName: 'CSS', text: 'professional', buttonColor: 'bg-blue-600 hover:bg-blue-700', icon: <FaCss3 className="group-hover:text-blue-500" /> },
     { skillsName: 'React', text: 'professional', buttonColor: 'bg-blue-500 hover:bg-blue-300', icon: <FaReact className="group-hover:text-blue-500" /> },
     { skillsName: 'Tailwindcss', text: 'professional', buttonColor: 'bg-teal-500 hover:bg-teal-300', icon: <RiTailwindCssFill className="group-hover:text-teal-500" /> },
-    { skillsName: 'Php', text: 'Advanced', buttonColor: 'bg-blue-500 hover:bg-blue-300', icon: <FaPhp  className="group-hover:text-black" /> },
-    { skillsName: 'GitHub', text: 'Advanced', buttonColor: 'bg-black-500 hover:bg-black', icon: <FaGithub className="group-hover:text-black" /> },
+    { skillsName: 'Express', text: 'Advanced', buttonColor: 'bg-blue-500 hover:bg-blue-300', icon: < SiExpress className="group-hover:text-black" /> },
+    { skillsName: 'Mongodb', text: 'Advanced', buttonColor: 'bg-black-500 hover:bg-black', icon: <SiMongodb  className="group-hover:text-green-600" /> },
     { skillsName: 'Figma', text: 'Advanced', buttonColor: 'bg-black hover:bg-black', icon: <FaFigma className="group-hover:text-white" /> },
 
   ];

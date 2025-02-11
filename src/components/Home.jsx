@@ -2,6 +2,7 @@ import Hero from "../Pages/Hero"
 import AboutMe from "./AboutMe"
 import  Projects  from "./Projects"
 import Contact from "./Contact"
+import Ex from "./Ex"
 
 import Skills from "./Skills"
  const Home = () => {
@@ -10,6 +11,7 @@ import Skills from "./Skills"
    <Hero />
 <AboutMe />
 <Skills />
+<Ex />
 <Projects />
 <Contact />
   </main>

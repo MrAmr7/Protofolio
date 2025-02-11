@@ -1,26 +1,48 @@
-
-import photo from '../assets/K.jpg'
+import photo from "../assets/Amr.png";
 const AboutMe = () => {
   return (
-    <main id='About Me' className="h-[100vh] w-[100vw] bg-black pt-[8rem] z-0 flex justify-center items-center" >
-        
-            <div className="w-[40%] my-auto mx-6">
-              <h2 className="text-4xl font-bold  mp-4 text-purple-950" > About Me</h2>
-              <p className="text-2xl font-serif  text-white">  Eng- Amr<br></br>
-              Full-Stack Web Developer  Problem Solver
-
- developer, I create visually stunning and highly functional websites with an emphasis on user experience and performance. I have hands-on experience with Figma,HTML, CSS,TailwindCss and JavaScript, as well as modern JavaScript frameworks like React.
-
-I believe in writing clean, maintainable code and collaborating effectively with cross-functional teams. With a keen eye for design, I work closely with UI/UX designers to ensure that applications are both beautiful and easy to use. I am also passionate about optimizing performance and accessibility to ensure that every user has the best possible experience.
-           </p>
-            </div>
-
-            <img className='mx-auto md:py-0 rounded-3xl ' src={photo} width={700} height={700} />
-
-          
+    <main
+      id="About Me"
+      className="h-auto md:h-[100vh] w-full bg-black pt-[8rem] z-0 flex justify-center items-center"
+    >
+      <div className="w-full h-auto md:w-[90%] mx-auto flex flex-col md:flex-row">
+        <div className="w-full md:w-[70%]  my-auto p-2 mx-2">
+          <h2 className="text-4xl font-bold  mp-4 text-purple-950">
+            {" "}
+            About Me
+          </h2>
+          <p className="text-lg md:text-3xl font-serif  text-white">
+            Tech Stack & Skills: Frontend: React,Tailwind CSS, JavaScript(ES6+),
+            HTML, CSS. Backend: Python,JavaScript(ES6+),Node.js, Express.js,
+            APIs.
+            <br />
+            Database: MongoDB, MySQL.
+            <br />
+            Tools & DevOps: Git, GitHub, Docker, CI/CD, Vercel.
+            <br />
+            Other Skills: Web Performance Optimization, Authentication (JWT,
+            OAuth), Testing (Jest, Cypress)
+            <br />
+            What I Do:
+            <br />
+            Develop full-stack applications that prioritize performance and
+            usability Implement secure, scalable, and well-structured backend
+            architectures Craft interactive and visually appealing UI/UX designs
+            Integrate third-party APIs and services for enhanced functionality
+            Continuously learn and adapt to new technologies to stay ahead My
+            Approach: I believe in clean, maintainable code and a user-first
+            mindset. Every project I build is optimized for speed,
+            accessibility, and scalability. Collaboration, problem-solving, and
+            continuous improvement drive my development process.{" "}
+          </p>
+        </div>
+        <img
+          className="mx-auto md:py-0 rounded-3xl w-full h-[400px] md:w-[30%] md:h-auto "
+          src={photo}
+        />
+      </div>
     </main>
+  );
+};
 
-  )
-}
-
-export default AboutMe
+export default AboutMe;
